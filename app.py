@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load model
-model = joblib.load('traffic_model.pkl(1)')
+model = joblib.load('traffic_model.pkl')
 
 st.set_page_config(page_title="Traffic Optimizer", layout="centered")
 
